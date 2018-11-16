@@ -1,4 +1,3 @@
-from os.path import join
 import logging
 
 ########################################################################################################################
@@ -108,7 +107,7 @@ LOG_LEVEL = logging.INFO
 ORDERID_PREFIX = "mm_bitmex_"
 
 # If any of these files (and this file) changes, reload the bot.
-WATCHED_FILES = [join('market_maker.py'), join('bitmex.py'), 'settings.py']
+WATCHED_FILES = ['market_maker.py', 'bitmex.py', 'settings.py', 'settings_local.py']
 
 
 ########################################################################################################################
