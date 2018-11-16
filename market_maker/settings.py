@@ -5,7 +5,7 @@ import os
 import sys
 
 from utils.dotdict import dotdict
-import _settings_base as baseSettings
+import settings_base as baseSettings
 
 
 def import_path(fullpath):
@@ -22,7 +22,7 @@ def import_path(fullpath):
     return module
 
 
-userSettings = import_path(os.path.join('.', 'settings'))
+userSettings = import_path(os.path.join('.', 'settings_local'))
 symbolSettings = None
 symbol = sys.argv[1] if len(sys.argv) > 1 else None
 if symbol:
