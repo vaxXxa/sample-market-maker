@@ -4,8 +4,8 @@ import importlib
 import os
 import sys
 
-from market_maker.utils.dotdict import dotdict
-import market_maker._settings_base as baseSettings
+from utils.dotdict import dotdict
+import _settings_base as baseSettings
 
 
 def import_path(fullpath):

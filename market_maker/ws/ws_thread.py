@@ -7,10 +7,10 @@ from time import sleep
 import json
 import decimal
 import logging
-from market_maker.settings import settings
-from market_maker.auth.APIKeyAuth import generate_expires, generate_signature
-from market_maker.utils.log import setup_custom_logger
-from market_maker.utils.math import toNearest
+from settings import settings
+from auth.APIKeyAuth import generate_expires, generate_signature
+from utils.log import setup_custom_logger
+from utils.math import toNearest
 from future.utils import iteritems
 from future.standard_library import hooks
 with hooks():  # Python 2/3 compat
@@ -331,4 +331,3 @@ if __name__ == "__main__":
     ws.connect("https://testnet.bitmex.com/api/v1")
     while(ws.ws.sock.connected):
         sleep(1)
-

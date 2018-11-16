@@ -1,3 +1,3 @@
-from market_maker.auth.AccessTokenAuth import *
-from market_maker.auth.APIKeyAuth import *
-from market_maker.auth.APIKeyAuthWithExpires import *
+from auth.AccessTokenAuth import *
+from auth.APIKeyAuth import *
+from auth.APIKeyAuthWithExpires import *

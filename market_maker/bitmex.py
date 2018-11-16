@@ -7,9 +7,9 @@ import json
 import base64
 import uuid
 import logging
-from market_maker.auth import APIKeyAuthWithExpires
-from market_maker.utils import constants, errors
-from market_maker.ws.ws_thread import BitMEXWebsocket
+from auth import APIKeyAuthWithExpires
+from utils import constants, errors
+from ws.ws_thread import BitMEXWebsocket
 
 
 # https://www.bitmex.com/api/explorer/

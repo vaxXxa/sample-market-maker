@@ -8,9 +8,9 @@ import requests
 import atexit
 import signal
 
-from market_maker import bitmex
-from market_maker.settings import settings
-from market_maker.utils import log, constants, errors, math
+import bitmex
+from settings import settings
+from utils import log, constants, errors, math
 
 # Used for reloading the bot - saves modified times of key files
 import os
@@ -546,3 +546,6 @@ def run():
         om.run_loop()
     except (KeyboardInterrupt, SystemExit):
         sys.exit()
+
+if __name__ == '__main__':
+    run()
