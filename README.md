@@ -29,7 +29,7 @@ It is free to use and modify for your own strategies. It provides the following:
 2. Create a virtualenv: `python3 -m venv env`.
 3. Active environment: `source env/bin/activate`.
 4. Install: `pip install -r requirements.txt`.
-5. Edit settings.py to add your [BitMEX API Key and Secret](https://testnet.bitmex.com/app/apiKeys) and change bot parameters.
+5. Edit settings_local.py to add your [BitMEX API Key and Secret](https://testnet.bitmex.com/app/apiKeys) and change bot parameters.
     * Note that user/password authentication is not supported.
     * Change symbol if you want.
     * Run with `DRY_RUN=True` to test cost and spread.
