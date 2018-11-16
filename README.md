@@ -28,7 +28,7 @@ It is free to use and modify for your own strategies. It provides the following:
 1. Create a [Testnet BitMEX Account](https://testnet.bitmex.com) and [deposit some TBTC](https://testnet.bitmex.com/app/deposit).
 2. Create a virtualenv: `python3 -m venv env`.
 3. Active environment: `source env/bin/activate`.
-4. Install: `pip install bitmex-market-maker`.
+4. Install: `pip install -r requirements.txt`.
 5. Edit settings.py to add your [BitMEX API Key and Secret](https://testnet.bitmex.com/app/apiKeys) and change bot parameters.
     * Note that user/password authentication is not supported.
     * Change symbol if you want.
